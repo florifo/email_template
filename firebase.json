@@ -1,6 +1,6 @@
 {
   "firebase": "invitacion-daniloyflori",
-  "public": "/",
+  "public": "dist",
   "ignore": [
     "firebase.json",
     "**/.*",
