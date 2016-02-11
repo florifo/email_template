@@ -243,18 +243,9 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td cellpadding="0" cellspacing="0" border="0" >
-                                        <a target="_blank" href="<?PHP echo $a_featured_offer_url?>" style="text-decoration:none;">
-                                            <img 
-                                            border="0" 
-                                            width="300" 
-                                            height="276" 
-                                            alt=" "
-                                            style="<?PHP echo $style_img?> min-width:53px; display: inline;" 
-                                            src="images/main_image.jpg"
-                                            >
-                                        </a>
-                                    </td>                               
+                                    <td width="100%" height="40" bgcolor="#d4af37" style="border-right: 2px solid #ddd;border-bottom: 2px solid #ddd;background-color:#d4af37; text-transform:uppercase; text-align:center; font-size:14px; mso-line-height-rule:exactly; line-height:15px !important; display:block;">
+                                        <a target="_blank" href="<?PHP echo $a_featured_offer_url?>" style="mso-line-height-rule:exactly; line-height:40px; width:164px; display:inline-block; text-decoration:none; color:#fff;"><font face="arial"><strong>Más Info</strong></font></a>
+                                    </td>                              
                                 </tr>
                             </table>
                         </td>
