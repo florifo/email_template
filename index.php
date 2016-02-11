@@ -30,7 +30,7 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
     <!-- END to prevent image blocking -->
     */ ?>
 
-    <title><?PHP echo $date?></title>
+    <title><?PHP echo $a_featured_offer_title?></title>
     <style type="text/css">
         /* Based on The MailChimp Reset INLINE:Yes. */
         /* Client-specific Styles */
@@ -201,7 +201,7 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
                 <table width="100%" style="min-width:100%;" border="0" cellpadding="0" cellspacing="0" align="center">
                     <tr>
                         <td colspan="3"cellpadding="0" cellspacing="0" border="0"  >
-                            <a target="_blank" href="<?PHP echo $a_learn_more_url?>" style="text-decoration:none;">
+                            <a target="_blank" href="<?PHP echo $a_featured_offer_url?>" style="text-decoration:none;">
                                 <img 
                                 border="0" 
                                 width="100%" 
@@ -233,7 +233,7 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="color:fff; text-transform:uppercase;padding-top:5px;padding-bottom:20px;" colspan="2">
+                                    <td style="color:fff; padding-top:5px;padding-bottom:20px;" colspan="2">
                                         <a target="_blank" href="<?PHP echo $a_featured_offer_url?>" style="color:#fff;text-decoration:none;font-family:serif;font-size:22px;font-style:italic;"><?PHP echo $a_featured_offer_title?></a>
                                     </td>
                                 </tr>
