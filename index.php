@@ -5,7 +5,7 @@
 
     // Fetured Offer
 $a_featured_offer_title = "Nuestra Boda"; 
-$a_featured_offer_description = "Hola, para nosotros usted es muy importante y por eso que queremos invitarle a nuestra boda. <br> <br> Hemos resevado para usted <strong style='font-size:22px;'>1</strong> espacio. Por favor confirmar su asistencia en nuestro sitio web."; 
+$a_featured_offer_description = "Hola, para nosotros usted es muy importante y por eso queremos invitarle a nuestra boda el próximo Domingo 24 de Abril. <br> <br> Hemos reservado para usted <strong style='font-size:22px;'>1</strong> espacio. Por favor confirmar su asistencia en nuestro sitio web."; 
 $a_featured_offer_url = "http://www.daniloyflori.com";
 
     // Commonly used styles
@@ -142,7 +142,7 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
                     <tr valign="top">
                         <td align="center">
                             <table width="300" style="min-width:300px;" border="0" cellpadding="0" cellspacing="0">
-                                <tr><td colspan="2" style="line-height:30px;">&nbsp;</td></tr>
+                                <tr><td colspan="2" style="line-height:20px;">&nbsp;</td></tr>
                                 <tr>
                                     <td cellpadding="0" width="27" cellspacing="0" style="width:27px;border-top:2px solid #fff;line-height:0px;"></td>
                                     <td style="width:273px; border-top: 4px solid #302f2a;line-height:0px;"></td>
@@ -153,7 +153,7 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="padding-bottom:20px;color:#fff;font-family:Helvetica;font-size:13px;line-height:20px;" colspan="2">
+                                    <td style="padding-bottom:20px;color:#fff;font-family:Helvetica;font-size:13px;line-height:17px;" colspan="2">
                                         <?PHP echo $a_featured_offer_description?>
                                     </td>
                                 </tr>
@@ -261,3 +261,4 @@ $style_mobile_content_initial = "display:none; width:0px; overflow:hidden; float
         </tr>
         <!-- END MOBILE CONTENT - HERO -->    
     </table>
+</body>
